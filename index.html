@@ -2,18 +2,71 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>As Important As You</title>
     <style>
-      .text {
-        background-colour: green;
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      p {
+        max-width: 33%;
+        font-size: 2rem;
+        padding: 30px;
+      }
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      #box {
+        border: 5px solid red;
+        padding: 0 200px;
+        background-color: blue;
+        color: white;
+      }
+
+      #logo {
+        border-radius: 100%;
+        border: 5px solid blue;
+        width: 300px;
+        height: 300px;
+      }
+
+      #header {
+        background-color: blue;
+        color: white;
+        border: 5px solid red;
+        font-size: 4rem;
+        padding: 10px;
+      }
+
+      #podium {
+        max-height: 600px;
+        margin: 10px;
+        border: 5px solid blue;
       }
     </style>
   </head>
   <body>
-    <h1>As Important As You</h1>
-    <div class="text">
-      <p>Your Text goes here</p>
-      <img src="" alt="Your image goes here">
+
+    <h1 id='header'>As Important As You</h1>
+    <div class="row">
+      <p>Gender Equality has always been a difficult argument to talk about. It concerns topics like women's rights, oppurtunities and protections.</p>
+      <img id="logo" src="Pic12-AsImportantAsYou.jpg" alt="">
     </div>
+
+    <p id="box">WHAT THIS WEBSITE DOES IS INFORM PEOPLE ABOUT THESE THEMES AND SHOW THAT THERE ARE NO DIFFERENCES</p>
+
+    <div class="row">
+      <img id="podium" src="Pic1-AsImportantAsYou.jpg" alt="">
+      <p>When people think about important discoveries in history, always comes to mind male names like: Sigmund Freud, Albert Einstein and others.<br><br> But let's talk about womens like Marie Curie who has an important part in lots of fields: she is the first woman becoming a teacher and the only one wh won two nobel prices. Or Giovanna d'Arco who guided French people to the victory in the 1400s. And how can we forget Malala Yousafzai that spent all her life fighting for girls' instruction rights.</p>
+    </div>
+
+
   </body>
 </html>
+
